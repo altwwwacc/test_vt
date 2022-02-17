@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.item {
+  display: flex;
+  padding: 0.5rem;
+  background-color: lightgray;
+
+  &:not(:first-child) {
+    border-top: 1px solid #fff;
+  }
+}
+
+.link {
+  flex-grow: 1;
+}
